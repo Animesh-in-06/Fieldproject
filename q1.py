@@ -1,0 +1,11 @@
+# Program 1: Sum, Difference, Product, Quotient of two numbers
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
+if b != 0:
+    print("Quotient:", a / b)
+else:
+    print("Quotient: Division by zero not possible")
